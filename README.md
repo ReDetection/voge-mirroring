@@ -4,7 +4,7 @@ So, if you got the bike and noticed Wi-Fi connection isn't used for anything –
 
 I have zero knowledge about other motorcycles, but a similar approach might work for you.
 
-Please give this repo a star if it's helpful and consider backing me on [patreon](patreon.com/ReDetection).
+Please give this repo a star if it's helpful and consider backing me on [patreon](https://patreon.com/ReDetection).
 
 ## I am an Android user
 
