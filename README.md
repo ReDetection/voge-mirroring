@@ -1,6 +1,7 @@
 # Screen mirroring on Voge 500AC motorcycle
 
-![demo](9.header-demo.jpg)
+[![demo](9.header-demo.jpg)](https://www.youtube.com/watch?v=1sxNRohE6uE)
+https://www.youtube.com/watch?v=1sxNRohE6uE
 
 So, if you got the bike and noticed Wi-Fi connection isn't used for anything – you are not alone! Hopefully this guide will help you to get something working. This is the result of my (ongoing) research on how to stream from the mobile phone to the dashboard.
 
