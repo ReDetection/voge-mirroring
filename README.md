@@ -21,7 +21,7 @@ Once you have the app, you can just connect to the motorcycle's Wi-Fi (iOS netwo
 
 ## I am an iOS user
 
-Well, there is some trickery. While you can still use the QR-code above or just [follow the link](https://apps.apple.com/cn/app/亿连lite/id1584935761), it won't open the App Store, because at the moment the app is only available in mainland China, unfortunately. So you have to create another Apple ID in your country region, then (and only then!) change the App Store region to mainland China.
+Well, there is some trickery. While you can still use the QR-code above or just [follow the link](https://apps.apple.com/cn/app/驾驶伴侣/id1308698895), it won't open the App Store, because at the moment the app is only available in mainland China, unfortunately. So you have to create another Apple ID in your country region, then (and only then!) change the App Store region to mainland China.
 
 To install the app on the iOS device, you need to log in the App Store with the new chinese account you just created. There is no need to remove the entire Apple ID, so you can keep your device perfectly operational, with all the pictures and apps in place. From the iOS device, open the Settings app -> Apple ID -> tap the Media & Purchases to Log Out from the App Store. Once you did that, open the App Store app and log in with the chinese account you have created. Then you can follow the link (I have also [QR code](2.ios-app-link.png) for that) to download the app from the App Store. With the app installed, you can again use the Settings app to relogin App Store account with your normal Apple ID.
 
