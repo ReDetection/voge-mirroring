@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Voge QR-code generator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #f5f5f5; /* Set light background color */
+    }
+    
+    #qrCode {
+      padding: 20px;
+      background-color: white;
+      align: right; /* Align QR code to the right */
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">VOGE streaming QR-code generator</h1>
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="mb-3">
+          <label for="ssid" class="form-label">Wi-Fi SSID:</label>
+          <input type="text" class="form-control" id="ssid" onchange="generateQRCode()" oninput="generateQRCode()" value="VOGE-5G-1234">
+        </div>
+        <div class="mb-3">
+          <label for="pw" class="form-label">Password:</label>
+          <input type="text" class="form-control" id="pw" onchange="generateQRCode()" oninput="generateQRCode()" value="88888888">
+        </div>
+        <div class="mb-3">
+          <label for="action" class="form-label">Action (try numbers from 1 to 8 if does not work)</label>
+          <input type="text" class="form-control" id="action" onchange="generateQRCode()" oninput="generateQRCode()" value="1">
+        </div>
+        <div class="mb-3">
+          <label for="model" class="form-label">Model (not sure if this actually means anything, better leave unchanged)</label>
+          <input type="text" class="form-control" id="model" onchange="generateQRCode()" oninput="generateQRCode()" value="34808">
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div id="qrCode" class="mt-4"></div>
+      </div>
+    </div>
+    <h5 class="text-center mb-4" style="margin: 30px;"><a href="https://redetection.github.io/voge-mirroring/">Go back to the instruction</a></h1>
+  </div>
+
+  <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+  <script>
+    function generateQRCode() {
+      var ssid = document.getElementById('ssid').value;
+      var pw = document.getElementById('pw').value;
+      var action = document.getElementById('action').value;
+      var model = document.getElementById('model').value;
+      var url = "http://www.carbit.com.cn/down6/645/644/_ylqxos?modelid=" + model + "&action=" + action + "&ssid=" + ssid + "&pwd=" + pw + "&auth=WPA2&name=" + ssid;
+      var qrCodeDiv = document.getElementById('qrCode');
+      qrCodeDiv.innerHTML = ''; // Clear previous QR code (if any)
+
+      if (url) {
+        var qrcode = new QRCode(qrCodeDiv, {
+          text: url,
+          width: 256,
+          height: 256,
+        });
+      }
+    }
+    generateQRCode();
+  </script>
+</body>
+</html>
