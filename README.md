@@ -42,3 +42,5 @@ I assume, at the moment, this only works for the motorcycles sold in mainland Ch
 #### How things actually work
 
 Instrumentation only shows Wi-Fi settings (a static SSID and password! 🤦‍♂️) and nothing really changes if you connect it. There are some apps like EasyConnect and EasyRide which are in fact use the same protocol, does not seem not work, even if you find the correct QR-code.
+
+In the ideal case it would be nice to adopt the Android Auto and Apple CarPlay, since those do not require the phone to be always on and the dashboard already has Bluetooth and Wi-Fi built in.
