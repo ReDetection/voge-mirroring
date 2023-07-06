@@ -35,7 +35,7 @@ Please consider this as a complaint! Fix the delivery chain, publish the app in 
 
 #### How things should work
 
-In the ideal world, there should be a link in the owner's manual, but having a QR code on the motorcycle instrument dashboard itself would also be nice. This way one can easily discover the needed software, open it up and have everything running. 
+We would appreciate a link in the owner's manual, but having a QR code on the motorcycle instrument dashboard itself would also be nice. This way one can easily discover the needed software, open it up and have everything running. 
 
 I assume, at the moment, this only works for the motorcycles sold in mainland China. So please fix that! Having navigation software (or screen mirroring) – is a very advanced feature, so this can be used as an advantage in the modern motorcycle market. Do not miss the chance while you still have the advantage!
 
